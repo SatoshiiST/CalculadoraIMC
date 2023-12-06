@@ -14,7 +14,6 @@ body{
 }
 
 #container{
-    min-width: 340px;
     width: 40%;
     height: 60%;
     background: rgb(22,188,219);
@@ -24,7 +23,8 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 30%;
-    margin-top: 10%;
+    margin-right: 30%;
+    margin-top: 5%;
 }
 
 h1{
@@ -49,6 +49,7 @@ input{
     border-style: solid;
 }
 
+
 #Calcula{
     border-radius: 10px;
     border-width: 5%;
@@ -63,4 +64,33 @@ input{
 footer{
     margin-top: 18%;
     margin-left: 72%;
+}
+
+@media (max-width: 800px){
+    #container{
+        width: 80%;
+        height: 50%;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+
+    h1{
+        font-size: 210%;
+    }
+
+    label{
+        font-size: 180%;
+    }
+
+    #Calcula{
+        width: 40%;
+        height: 30%;
+        font-size: 120%;
+    }
+
+    footer{
+        margin-top: 85%;
+        margin-left: 60%;
+        font-size: 108%;
+    }
 }
