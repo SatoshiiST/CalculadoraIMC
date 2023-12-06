@@ -66,31 +66,31 @@ footer{
     margin-left: 72%;
 }
 
-@media (max-width: 800px){
+@media (max-width: 450px){
     #container{
         width: 80%;
-        height: 50%;
+        height: 40%;
         margin-left: 10%;
         margin-top: 20%;
     }
 
     h1{
-        font-size: 210%;
-    }
-
-    label{
         font-size: 180%;
     }
 
-    #Calcula{
-        width: 40%;
-        height: 30%;
+    label{
         font-size: 120%;
     }
 
+    #Calcula{
+        width: 35%;
+        height: 35%;
+        font-size: 80%;
+    }
+
     footer{
-        margin-top: 85%;
-        margin-left: 60%;
-        font-size: 108%;
+        margin-top: 118%;
+        margin-left: 50%;
+        font-size: 90%;
     }
 }
