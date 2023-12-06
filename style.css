@@ -16,8 +16,8 @@ body{
 #container{
     width: 40%;
     height: 60%;
-    background: rgb(22,188,219);
-    background: linear-gradient(90deg, rgba(22,188,219,1) 0%, rgba(111,0,255,1) 83%);
+    background: rgb(125,190,108);
+    background: linear-gradient(90deg, rgba(125,190,108,1) 45%, rgba(161,222,141,1) 100%);
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ label{
 input{
     border-radius: 7px;
     background-color: rgb(255, 255, 255);
-    border-color: rgb(3, 10, 104);
+    border-color: rgb(61, 88, 56);
     border-width: 5%;
     border-style: solid;
 }
@@ -57,13 +57,14 @@ input{
     width: 35%;
     height: 30%;
     background-color: rgb(255, 255, 255);
-    color: rgb(3, 113, 202);
+    color: rgb(6, 94, 41);
     box-shadow: 20%;
 }
 
 footer{
-    margin-top: 18%;
-    margin-left: 72%;
+    margin-top: 24%;
+    margin-left: 75%;
+    font-size: 90%;
 }
 
 @media (max-width: 450px){
